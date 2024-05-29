@@ -29,7 +29,8 @@
     "typescript-eslint": "^7.11.0"
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx}": [
+    "*": [
+      "eslint src/*",
       "eslint --fix",
       "prettier --write"
     ]
