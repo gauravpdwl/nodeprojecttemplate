@@ -1,5 +1,4 @@
-function print(name: string): string {  
-    return "Hello, Gaurav!";
+function print(name: string): string {  return "Hello, Gaurav!";
 }
 
 console.log(print("Hello"));
